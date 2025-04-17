@@ -1,4 +1,4 @@
-module ProductVariant exposing (Model, Msg, init, update, view)
+module ProductVariant exposing (Color(..), Model, Msg(..), Size(..), init, update, view)
 
 import Html exposing (Html, button, div, text)
 import Html.Attributes exposing (class, style)
