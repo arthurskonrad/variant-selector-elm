@@ -1,0 +1,26 @@
+.flex-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.preview-circle {
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+button {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button.selected {
+  background-color: #0077cc;
+  color: white;
+  border-color: #005fa3;
+}
