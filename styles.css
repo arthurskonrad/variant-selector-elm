@@ -4,6 +4,14 @@
   gap: 2rem;
 }
 
+.preview-wrapper {
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .preview-circle {
   border-radius: 50%;
   border: 1px solid #ccc;
@@ -20,7 +28,7 @@ button {
 }
 
 button.selected {
-  background-color: #0077cc;
+  background-color: #cc7000;
   color: white;
-  border-color: #005fa3;
+  border-color: #a35700;
 }
